@@ -1,0 +1,111 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+
+.header {
+    padding: 30px;
+}
+
+
+.new-books {
+    padding-left: 30px;
+}
+.new-books span {
+    display: block;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.6);
+}
+.new-books__list {
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-gap: 15px;
+    justify-items: center;
+    padding-left: 0px;
+    padding: 10px 0;
+}
+.new-books .item-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+
+.star-writers__heading {
+    margin: 30px;
+}
+.star-writers__list {
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-auto-flow: column;
+    padding-left: 30px;
+}
+.star-writer {
+    display: grid;
+    grid-template-columns 1fr 3fr;
+    grid-auto-flow: column;
+    padding: 10px 15px;
+    grid-gap: 10px;
+    align-items: center;
+    border: 3px solid rgba(0,0,0,0.2);
+    font-size: 12px;
+}
+.star-writer__photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.star-writers__profile{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.star-writer__name {
+    font-weight: 600;
+}
+
+.new-infos {
+    padding: 10px 30px;
+}
+.new-infos__title {
+    margin-bottom: 15px;
+}
+.new-info {
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 3px solid rgba(0,0,0,0.2)
+}
+.new-info__detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.new-info__photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.new-info__title {
+    margin-bottom: 5px;
+}
+.new-info__writer{
+    margin-bottom: 5px;
+}
+.new-info__additional {
+    color: rgba(0,0,0,0.2);
+    margin-top: 0;
+}
